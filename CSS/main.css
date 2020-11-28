@@ -1,10 +1,38 @@
-.page {
+.page_header {
   background: linear-gradient(
     90deg,
     rgba(213, 32, 71, 0.8) 0%,
     rgba(238, 61, 27, 0.8) 100%
   );
+  font-family: "Lato", sans-serif;
+  color: white;
 }
-.header {
-  color: 255, 255, 255, 1;
+.logo-img {
+  line-height: 22px;
+}
+.logo_text {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  line-height: 100%;
+}
+.main-nav {
+  color: white;
+}
+.ul-nav {
+  list-style-type: none;
+}
+.li1 {
+  color: white;
+  font-size: 14px;
+  line-height: 17px;
+  line-height: 100%;
+}
+.login {
+  background-color: unset;
+  color: white;
+  border-color: white;
+  font-size: 14px;
+  line-height: 17px;
+  line-height: 100%;
 }
