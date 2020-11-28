@@ -1,10 +1,12 @@
+.body {
+  font-family: "Lato", sans-serif;
+}
 .page_header {
   background: linear-gradient(
     90deg,
     rgba(213, 32, 71, 0.8) 0%,
     rgba(238, 61, 27, 0.8) 100%
   );
-  font-family: "Lato", sans-serif;
   color: white;
 }
 .logo-img {
@@ -13,8 +15,7 @@
 .logo_text {
   font-style: normal;
   font-size: 18px;
-  line-height: 22px;
-  line-height: 100%;
+  line-height: 22.6px;
 }
 .main-nav {
   color: white;
@@ -26,13 +27,42 @@
   color: white;
   font-size: 14px;
   line-height: 17px;
-  line-height: 100%;
 }
-.login {
+.login_button {
   background-color: unset;
   color: white;
   border-color: white;
   font-size: 14px;
   line-height: 17px;
-  line-height: 100%;
+  border-radius: 6px;
+}
+.main_head {
+  font-style: normal;
+  font-size: 72px;
+  line-height: 86.4px;
+  color: white;
+  font-weight: bold;
+}
+.text_after_h1 {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.sign_up_button {
+  background-color: white;
+  color: #ed4c5c;
+  border-color: unset;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+.text_section_1 {
+  font-size: 16px;
+  line-height: 22.4px;
+}
+.video {
+  width: 540px;
+  height: 311px;
+  border-radius: 15px;
 }
