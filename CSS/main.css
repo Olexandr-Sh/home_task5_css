@@ -57,6 +57,9 @@
   font-size: 14px;
   line-height: 16.8px;
 }
+.section_1 {
+  background-color: #fff;
+}
 .text_section_1 {
   font-size: 16px;
   line-height: 22.4px;
@@ -65,6 +68,12 @@
   width: 540px;
   height: 311px;
   border-radius: 15px;
+}
+.play-button {
+  border-radius: 15px;
+}
+.section_2 {
+  background-color: #fafafa;
 }
 .features_text {
   font-size: 14px;
@@ -75,4 +84,14 @@
   line-height: 18px;
   font-weight: bold;
   color: #ed4c5c;
+}
+.number {
+  font-size: 100px;
+  line-height: 120px;
+  font-weight: bold;
+  color: rgba(16, 16, 16, 0.08);
+}
+.technology_text {
+  font-size: 14px;
+  line-height: 16.8px;
 }
