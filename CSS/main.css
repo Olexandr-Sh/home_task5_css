@@ -66,3 +66,13 @@
   height: 311px;
   border-radius: 15px;
 }
+.features_text {
+  font-size: 14px;
+  line-height: 21px;
+}
+.read_more {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #ed4c5c;
+}
