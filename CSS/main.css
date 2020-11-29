@@ -7,31 +7,26 @@
     rgba(213, 32, 71, 0.8) 0%,
     rgba(238, 61, 27, 0.8) 100%
   );
-  color: #fff;
+  color: #ffffff;
 }
 .logo-img {
   line-height: 22px;
 }
-.logo_text {
-  font-style: normal;
-  font-size: 18px;
-  line-height: 22.6px;
-}
 .main-nav {
-  color: #fff;
+  color: #ffffff;
 }
 .ul-nav {
   list-style-type: none;
 }
 .li1 {
-  color: #fff;
+  color: #ffffff;
   font-size: 14px;
   line-height: 17px;
 }
 .login_button {
   background-color: unset;
-  color: #fff;
-  border-color: #fff;
+  color: #ffffff;
+  border-color: #ffffff;
   font-size: 14px;
   line-height: 17px;
   border-radius: 6px;
@@ -40,17 +35,17 @@
   font-style: normal;
   font-size: 72px;
   line-height: 86.4px;
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
 }
 .text_after_h1 {
   font-style: normal;
   font-size: 24px;
   line-height: 36px;
-  color: #fff;
+  color: #ffffff;
 }
 .sign_up_button {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #ed4c5c;
   border-color: unset;
   border-radius: 6px;
@@ -58,7 +53,7 @@
   line-height: 16.8px;
 }
 .section_1 {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .text_section_1 {
   font-size: 16px;
@@ -97,7 +92,7 @@
 }
 .section_4 {
   background-color: #ed4c5c;
-  color: #fff;
+  color: #ffffff;
 }
 .stay_text {
   font-size: 16px;
@@ -105,14 +100,14 @@
 }
 .select {
   color: rgba(19, 39, 67, 0.5);
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .form_button {
   background-color: #ed4c5c;
   border-radius: 6px;
   font-size: 14px;
   line-height: 16.8px;
-  color: #fff;
+  color: #ffffff;
 }
 .footer {
   background-color: #fafafa;
@@ -137,7 +132,7 @@
 }
 .stay_text_component {
   background-color: #ed4c5c;
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
   line-height: 22.4px;
 }
@@ -147,7 +142,7 @@
     rgba(213, 32, 71, 0.8) 0%,
     rgba(238, 61, 27, 0.8) 100%
   );
-  color: #fff;
+  color: #ffffff;
   font-style: normal;
   font-size: 72px;
   line-height: 86.4px;
@@ -162,5 +157,5 @@
   font-style: normal;
   font-size: 24px;
   line-height: 36px;
-  color: #fff;
+  color: #ffffff;
 }
