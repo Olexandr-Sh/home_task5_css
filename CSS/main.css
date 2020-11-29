@@ -7,7 +7,7 @@
     rgba(213, 32, 71, 0.8) 0%,
     rgba(238, 61, 27, 0.8) 100%
   );
-  color: white;
+  color: #fff;
 }
 .logo-img {
   line-height: 22px;
@@ -18,20 +18,20 @@
   line-height: 22.6px;
 }
 .main-nav {
-  color: white;
+  color: #fff;
 }
 .ul-nav {
   list-style-type: none;
 }
 .li1 {
-  color: white;
+  color: #fff;
   font-size: 14px;
   line-height: 17px;
 }
 .login_button {
   background-color: unset;
-  color: white;
-  border-color: white;
+  color: #fff;
+  border-color: #fff;
   font-size: 14px;
   line-height: 17px;
   border-radius: 6px;
@@ -40,17 +40,17 @@
   font-style: normal;
   font-size: 72px;
   line-height: 86.4px;
-  color: white;
+  color: #fff;
   font-weight: bold;
 }
 .text_after_h1 {
   font-style: normal;
   font-size: 24px;
   line-height: 36px;
-  color: white;
+  color: #fff;
 }
 .sign_up_button {
-  background-color: white;
+  background-color: #fff;
   color: #ed4c5c;
   border-color: unset;
   border-radius: 6px;
@@ -102,4 +102,35 @@
 .stay_text {
   font-size: 16px;
   line-height: 22.4px;
+}
+.select {
+  color: rgba(19, 39, 67, 0.5);
+}
+.form_button {
+  background-color: #ed4c5c;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #fff;
+}
+.footer {
+  background-color: #fafafa;
+}
+.adress_text {
+  font-size: 14px;
+  line-height: 21px;
+  color: #101010;
+}
+.ul_services {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+.li_serv {
+  color: #000000;
+}
+.tel_mail {
+  color: #101010;
+  font-size: 14px;
+  line-height: 16.8px;
 }
