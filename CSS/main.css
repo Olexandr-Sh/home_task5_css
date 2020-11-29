@@ -105,6 +105,7 @@
 }
 .select {
   color: rgba(19, 39, 67, 0.5);
+  background-color: #fff;
 }
 .form_button {
   background-color: #ed4c5c;
@@ -133,4 +134,33 @@
   color: #101010;
   font-size: 14px;
   line-height: 16.8px;
+}
+.stay_text_component {
+  background-color: #ed4c5c;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+.main_header_component {
+  background: linear-gradient(
+    90deg,
+    rgba(213, 32, 71, 0.8) 0%,
+    rgba(238, 61, 27, 0.8) 100%
+  );
+  color: #fff;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 86.4px;
+  font-weight: bold;
+}
+.text_after_h1_component {
+  background: linear-gradient(
+    90deg,
+    rgba(213, 32, 71, 0.8) 0%,
+    rgba(238, 61, 27, 0.8) 100%
+  );
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
 }
