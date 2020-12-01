@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: "Lato", sans-serif;
 }
 .page_header {
@@ -15,7 +15,7 @@
 .main-nav {
   color: #ffffff;
 }
-.ul-nav {
+.elements-for-nav {
   list-style-type: none;
 }
 .li1 {
