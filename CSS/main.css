@@ -105,6 +105,9 @@ body {
   color: #fff;
   background: #f1c40f;
 }
+.sign_up_button:active {
+  box-shadow: 0 0 28px #f1c40f;
+}
 .section_1 {
   background-color: #fff;
 }
