@@ -24,12 +24,30 @@ body {
   line-height: 18px;
 }
 .login_button {
-  background-color: unset;
+  width: 100px;
+  height: 40px;
+  background: none;
   color: #fff;
-  border-color: #fff;
+  border: 1px solid #fff;
+  box-sizing: border-box;
   font-size: 14px;
   line-height: 18px;
   border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+  position: relative;
+  z-index: 1;
+}
+.login_button:hover {
+  box-shadow: 0 0 10px #f1c40f;
+}
+.login_button:focus {
+  box-shadow: 0 0 10px #f1c40f;
+}
+.login_button:active {
+  background-color: #eb8690;
+  opacity: 0.8;
 }
 .main_head {
   font-style: normal;
@@ -45,12 +63,47 @@ body {
   color: #fff;
 }
 .sign_up_button {
+  width: 160px;
+  height: 60px;
   background-color: #fff;
   color: #ed4c5c;
-  border-color: unset;
+  border: none;
   border-radius: 6px;
   font-size: 14px;
   line-height: 18px;
+  outline: none;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+  position: relative;
+  z-index: 1;
+}
+.sign_up_button:hover {
+  color: #fff;
+  box-shadow: 0 0 5px #fafafa;
+}
+.sign_up_button::before {
+  position: absolute;
+  background: #f1c40f;
+  transition: 0.5s all ease;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+}
+.sign_up_button:hover::before {
+  transition: 0.5s all ease;
+  border-radius: 6px;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.sign_up_button:focus {
+  box-shadow: 0 0 5px #fafafa;
+  color: #fff;
+  background: #f1c40f;
 }
 .section_1 {
   background-color: #fff;
