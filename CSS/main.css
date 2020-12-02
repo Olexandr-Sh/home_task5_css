@@ -101,7 +101,7 @@ body {
   z-index: -1;
 }
 .sign_up_button:focus {
-  box-shadow: 0 0 5px #fafafa;
+  box-shadow: 0 0 6px #fafafa;
   color: #fff;
   background: #f1c40f;
 }
@@ -117,8 +117,8 @@ body {
 }
 .video {
   width: 540px;
-  height: 311px;
-  border-radius: 15px;
+  height: 321px;
+  border-radius: 16px;
 }
 .play-button {
   border: none;
@@ -192,13 +192,16 @@ body {
   width: 540px;
   height: 60px;
 }
+.select:focus {
+  background-color: #fafafa;
+}
 .form_button {
   width: 160px;
   height: 60px;
   background: #ed4c5c;
   border: 1.5px solid #ed4c5c;
   outline: none;
-  box-sizing: border-box 0;
+  box-sizing: border-box;
   border-radius: 6px;
   font-size: 14px;
   line-height: 18px;
