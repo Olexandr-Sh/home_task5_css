@@ -1,0 +1,161 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+.page_header {
+  background: linear-gradient(
+    90deg,
+    rgba(213, 32, 71, 0.8) 0%,
+    rgba(238, 61, 27, 0.8) 100%
+  );
+  color: #fff;
+}
+.logo-img {
+  line-height: 29px;
+}
+.main-nav {
+  color: #fff;
+}
+.elements-for-nav {
+  list-style-type: none;
+}
+.li1 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+}
+.login_button {
+  background-color: unset;
+  color: #fff;
+  border-color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 6px;
+}
+.main_head {
+  font-style: normal;
+  font-size: 72px;
+  line-height: 88px;
+  color: #fff;
+  font-weight: bold;
+}
+.text_after_h1 {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+}
+.sign_up_button {
+  background-color: #fff;
+  color: #ed4c5c;
+  border-color: unset;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 18px;
+}
+.section_1 {
+  background-color: #fff;
+}
+.text_section_1 {
+  font-size: 16px;
+  line-height: 22px;
+}
+.video {
+  width: 540px;
+  height: 311px;
+  border-radius: 15px;
+}
+.play-button {
+  border-radius: 15px;
+}
+.section_2 {
+  background-color: #fafafa;
+}
+.features_text {
+  font-size: 14px;
+  line-height: 22px;
+}
+.read_more {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #ed4c5c;
+}
+.number {
+  font-size: 100px;
+  line-height: 120px;
+  font-weight: bold;
+  color: rgba(16, 16, 16, 0.08);
+}
+.technology_text {
+  font-size: 14px;
+  line-height: 18px;
+}
+.section_4 {
+  background-color: #ed4c5c;
+  color: #fff;
+}
+.stay_text {
+  font-size: 16px;
+  line-height: 22px;
+}
+.select {
+  color: rgba(19, 39, 67, 0.5);
+  background-color: #fff;
+}
+.form_button {
+  background-color: #ed4c5c;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+.footer {
+  background-color: #fafafa;
+}
+.adress_text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #101010;
+}
+.ul_services {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 22px;
+}
+.li_serv {
+  color: #000000;
+}
+.tel_mail {
+  color: #101010;
+  font-size: 14px;
+  line-height: 18px;
+}
+.stay_text_component {
+  background-color: #ed4c5c;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+}
+.main_header_component {
+  background: linear-gradient(
+    90deg,
+    rgba(213, 32, 71, 0.8) 0%,
+    rgba(238, 61, 27, 0.8) 100%
+  );
+  color: #fff;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 86px;
+  font-weight: bold;
+}
+.text_after_h1_component {
+  background: linear-gradient(
+    90deg,
+    rgba(213, 32, 71, 0.8) 0%,
+    rgba(238, 61, 27, 0.8) 100%
+  );
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+}
