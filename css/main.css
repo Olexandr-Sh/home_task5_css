@@ -24,12 +24,30 @@ body {
   line-height: 18px;
 }
 .login_button {
-  background-color: unset;
+  width: 100px;
+  height: 40px;
+  background: none;
   color: #fff;
-  border-color: #fff;
+  border: 1px solid #fff;
+  box-sizing: border-box;
   font-size: 14px;
   line-height: 18px;
   border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+  position: relative;
+  z-index: 1;
+}
+.login_button:hover {
+  box-shadow: 0 0 10px #f1c40f;
+}
+.login_button:focus {
+  box-shadow: 0 0 10px #f1c40f;
+}
+.login_button:active {
+  background-color: #eb8690;
+  opacity: 0.8;
 }
 .main_head {
   font-style: normal;
@@ -45,12 +63,50 @@ body {
   color: #fff;
 }
 .sign_up_button {
+  width: 160px;
+  height: 60px;
   background-color: #fff;
   color: #ed4c5c;
-  border-color: unset;
+  border: none;
   border-radius: 6px;
   font-size: 14px;
   line-height: 18px;
+  outline: none;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+  position: relative;
+  z-index: 1;
+}
+.sign_up_button:hover {
+  color: #fff;
+  box-shadow: 0 0 5px #fafafa;
+}
+.sign_up_button::before {
+  position: absolute;
+  background: #f1c40f;
+  transition: 0.5s all ease;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+}
+.sign_up_button:hover::before {
+  transition: 0.5s all ease;
+  border-radius: 6px;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.sign_up_button:focus {
+  box-shadow: 0 0 6px #fafafa;
+  color: #fff;
+  background: #f1c40f;
+}
+.sign_up_button:active {
+  box-shadow: 0 0 28px #f1c40f;
 }
 .section_1 {
   background-color: #fff;
@@ -61,11 +117,27 @@ body {
 }
 .video {
   width: 540px;
-  height: 311px;
-  border-radius: 15px;
+  height: 321px;
+  border-radius: 16px;
 }
 .play-button {
-  border-radius: 15px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+}
+.play-button:hover {
+  box-shadow: 0 0 10px #fff;
+  background: #fdbfbf;
+}
+.play-button:focus {
+  box-shadow: 0 0 10px #fff;
+  background: #fdbfbf;
+}
+.play-button:active {
+  background-color: #fafafa;
+  opacity: 0.5;
 }
 .section_2 {
   background-color: #fafafa;
@@ -98,16 +170,57 @@ body {
   font-size: 16px;
   line-height: 22px;
 }
+.form_item_1 {
+  width: 256px;
+  height: 60px;
+}
+.form_item_1:focus {
+  background-color: #fafafa;
+  color: #fff;
+}
+.form_item_2 {
+  width: 540px;
+  height: 60px;
+}
+.form_item_2:focus {
+  background-color: #fafafa;
+  color: #fff;
+}
 .select {
   color: rgba(19, 39, 67, 0.5);
   background-color: #fff;
+  width: 540px;
+  height: 60px;
+}
+.select:focus {
+  background-color: #fafafa;
 }
 .form_button {
-  background-color: #ed4c5c;
+  width: 160px;
+  height: 60px;
+  background: #ed4c5c;
+  border: 1.5px solid #ed4c5c;
+  outline: none;
+  box-sizing: border-box;
   border-radius: 6px;
   font-size: 14px;
   line-height: 18px;
   color: #fff;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+}
+.form_button:hover {
+  box-shadow: 0 0 10px #fafafa;
+  background: #e76673;
+}
+.form_button:focus {
+  box-shadow: 0 0 10px #fafafa;
+  background: #e76673;
+}
+.form_button:active {
+  background-color: #fafafa;
+  color: #ed4c5c;
+  opacity: 0.5;
 }
 .footer {
   background-color: #fafafa;
