@@ -291,10 +291,10 @@ body {
 .features_blocks {
   margin-top: 64px;
 }
-.elements_for_features {
+.elements_for_features_technology {
   list-style-type: none;
 }
-.features_list_item {
+.features_and_technology_list_item {
   display: inline-block;
 }
 .featers_block_image {
@@ -325,10 +325,25 @@ body {
   color: #ed4c5c;
 }
 .number {
+  width: 118px;
+  height: 120px;
   font-size: 100px;
   line-height: 120px;
   font-weight: bold;
   color: rgba(16, 16, 16, 0.08);
+  margin-top: 0;
+  margin-right: 70px;
+  margin-bottom: 106px;
+  margin-left: 70px;
+  position: absolute;
+}
+.technology_block {
+  margin-top: 58px;
+  margin-bottom: 104px;
+}
+.technology_block_icon {
+  position: relative;
+  margin-top: 60px;
 }
 .technology_text {
   font-size: 14px;
@@ -338,9 +353,29 @@ body {
   background-color: #ed4c5c;
   color: #fff;
 }
-.stay_text {
+.head_of_map_section {
+  width: 445px;
+  height: 87px;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 32px;
+  margin-top: 122px;
+}
+.map_text {
   font-size: 16px;
   line-height: 22px;
+  margin-bottom: 32px;
+}
+.map_style {
+  border-radius: 15px;
+  margin-top: 62px;
+  margin-bottom: 62px;
+}
+.head_of_form_section {
+  font-size: 36px;
+  line-height: 43px;
+  margin-top: 118px;
+  margin-bottom: 34px;
 }
 .form_item_1 {
   width: 256px;
