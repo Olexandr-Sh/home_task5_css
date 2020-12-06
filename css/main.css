@@ -16,27 +16,30 @@ body {
   font-family: "Lato", sans-serif;
 }
 .page_header {
-  background: linear-gradient(
-    90deg,
-    rgba(213, 32, 71, 0.8) 0%,
-    rgba(238, 61, 27, 0.8) 100%
-  );
+  width: 100%;
+  position: absolute;
   color: #fff;
   text-align: center;
-  max-height: 100px;
-  padding-top: 17px;
-  padding-bottom: 144px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 54px;
 }
 .hero-section {
   background: linear-gradient(
-    90deg,
-    rgba(213, 32, 71, 0.8) 0%,
-    rgba(238, 61, 27, 0.8) 100%
-  );
+      90deg,
+      rgba(213, 32, 71, 0.8) 0%,
+      rgba(238, 61, 27, 0.8) 100%
+    ),
+    url(/images/Rectangle_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   color: #fff;
+  padding-top: 182px;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -191,7 +194,7 @@ body {
   font-size: 24px;
   line-height: 36px;
   color: #fff;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 .sign_up_button {
   width: 160px;
@@ -296,7 +299,7 @@ body {
 .head_section_technology {
   font-size: 36px;
   line-height: 44px;
-  margin-top: 64px;
+  padding-top: 64px;
 }
 .features_blocks {
   margin-top: 64px;
@@ -308,12 +311,13 @@ body {
   display: inline-block;
 }
 .features_block_text_on_image {
+  width: 293px;
   height: 198px;
   background: #fff;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin-bottom: 124px;
-  margin-top: 158px;
+  margin-top: -120px;
   margin-left: 28px;
   margin-right: 28px;
   position: relative;
@@ -335,23 +339,22 @@ body {
   line-height: 120px;
   font-weight: bold;
   color: rgba(16, 16, 16, 0.08);
-  margin-top: 0;
-  margin-right: 70px;
-  margin-bottom: 106px;
-  margin-left: 70px;
-  position: absolute;
+  padding-top: 0;
+  padding-right: 70px;
+  padding-bottom: 106px;
+  padding-left: 70px;
 }
 .d-blok {
   display: block;
 }
 .technology_block {
-  margin-top: 58px;
+  padding-top: 60px;
   margin-bottom: 104px;
 }
 .technology_block_icon {
   position: relative;
-  margin-top: 60px;
   min-height: 80px;
+  margin-top: -40px;
 }
 .technology_text {
   font-size: 14px;
@@ -369,6 +372,11 @@ body {
   margin-bottom: 32px;
   margin-top: 122px;
 }
+.figure_map {
+  margin: 0;
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
 .map_text {
   font-size: 16px;
   line-height: 22px;
@@ -376,8 +384,6 @@ body {
 }
 .map_style {
   border-radius: 15px;
-  margin-top: 62px;
-  margin-bottom: 62px;
   width: 100%;
   height: 378px;
 }
@@ -462,13 +468,13 @@ body {
   background-color: #fafafa;
 }
 .heads_of_footer_section {
-  margin-top: 92px;
-  margin-bottom: 34px;
+  padding-top: 90px;
+  padding-bottom: 34px;
 }
 .adress_text {
   font-size: 14px;
   line-height: 22px;
-  margin-bottom: 132px;
+  padding-bottom: 132px;
   color: #101010;
 }
 .ul_services {
@@ -485,8 +491,8 @@ body {
 }
 .mail_list_item {
   margin-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 .tel_list_item {
   margin-bottom: 20px;
@@ -494,13 +500,19 @@ body {
 .li_serv {
   color: #000000;
   display: inline-block;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 .tel_mail {
   color: #101010;
   font-size: 14px;
   line-height: 18px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.position_footer_icons {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .stay_text_component {
   background-color: #ed4c5c;
@@ -534,6 +546,6 @@ body {
 .plain_text {
   font-size: 14px;
   line-height: 18px;
-  margin-bottom: 78px;
+  padding-bottom: 80px;
   color: #101010;
 }
