@@ -126,7 +126,6 @@ body {
 }
 .nav-list-item {
   display: inline-block;
-  margin: 0 5px;
 }
 .text-center {
   text-align: center;
@@ -141,6 +140,8 @@ body {
   color: #fff;
   font-size: 14px;
   line-height: 18px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .login_button_sml {
   width: 100px;
@@ -337,6 +338,9 @@ body {
   margin-left: 70px;
   position: absolute;
 }
+.d-blok {
+  display: block;
+}
 .technology_block {
   margin-top: 58px;
   margin-bottom: 104px;
@@ -344,6 +348,7 @@ body {
 .technology_block_icon {
   position: relative;
   margin-top: 60px;
+  min-height: 80px;
 }
 .technology_text {
   font-size: 14px;
@@ -387,6 +392,8 @@ body {
   border-radius: 6px;
   margin-top: 118px;
   margin-bottom: 24px;
+  padding-left: 30px;
+  padding-right: 15px;
 }
 .form_item_1:focus {
   background-color: #fafafa;
@@ -399,6 +406,8 @@ body {
   border: 1px solid #333;
   border-radius: 6px;
   margin-bottom: 24px;
+  padding-left: 30px;
+  padding-right: 15px;
 }
 .form_item_2:focus {
   background-color: #fafafa;
@@ -412,6 +421,8 @@ body {
   border: 1px solid #333;
   border-radius: 6px;
   margin-bottom: 28px;
+  padding-left: 30px;
+  padding-right: 15px;
 }
 .select:focus {
   background-color: #fafafa;
