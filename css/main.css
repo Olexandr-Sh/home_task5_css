@@ -3,6 +3,15 @@
 *:before {
   box-sizing: border-box;
 }
+img {
+  max-width: 100%;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 body {
   font-family: "Lato", sans-serif;
 }
@@ -298,13 +307,7 @@ body {
 .features_and_technology_list_item {
   display: inline-block;
 }
-.featers_block_image {
-  width: 350px;
-  height: 250px;
-  position: absolute;
-}
 .features_block_text_on_image {
-  width: 294px;
   height: 198px;
   background: #fff;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
@@ -482,17 +485,22 @@ body {
 }
 .mail_list_item {
   margin-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .tel_list_item {
   margin-bottom: 20px;
 }
 .li_serv {
   color: #000000;
+  display: inline-block;
 }
 .tel_mail {
   color: #101010;
   font-size: 14px;
   line-height: 18px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .stay_text_component {
   background-color: #ed4c5c;
