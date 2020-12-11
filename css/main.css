@@ -454,10 +454,20 @@ body {
   height: 378px;
 }
 .head_of_form_section {
+  margin: 0;
+  width: 100%;
   font-size: 36px;
   line-height: 43px;
-  margin-top: 118px;
-  margin-bottom: 34px;
+  padding-top: 118px;
+  padding-bottom: 34px;
+}
+.stay_text {
+  margin: 0;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.4;
+  height: 154px;
+  padding-right: 5%;
 }
 .form_item_1 {
   width: 100%;
@@ -498,6 +508,8 @@ body {
   margin-bottom: 28px;
   padding-left: 30px;
   padding-right: 15px;
+  appearance: none;
+  position: relative;
 }
 .select:focus {
   background-color: #fafafa;
@@ -534,10 +546,12 @@ body {
   background-color: #fafafa;
 }
 .heads_of_footer_section {
+  margin: 0;
   padding-top: 90px;
   padding-bottom: 34px;
 }
 .adress_text {
+  margin: 0;
   font-size: 14px;
   line-height: 22px;
   padding-bottom: 132px;
@@ -610,6 +624,7 @@ body {
   color: #fff;
 }
 .plain_text {
+  margin: 0;
   font-size: 14px;
   line-height: 18px;
   padding-bottom: 80px;
