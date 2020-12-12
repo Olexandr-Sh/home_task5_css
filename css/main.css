@@ -283,7 +283,7 @@ body {
   position: relative;
 }
 .play-button {
-  background: url(/images/Play_Button.svg);
+  background: url(../images/Play_Button.svg);
   width: 66px;
   height: 66px;
   left: calc(50% - 33px);
@@ -297,11 +297,11 @@ body {
 }
 .play-button:hover {
   box-shadow: 0 0 25px #fff;
-  background: url(/images/Play_Button.svg);
+  background: url(../images/Play_Button.svg);
 }
 .play-button:focus {
   box-shadow: 0 0 25px #fff;
-  background: url(/images/Play_Button.svg);
+  background: url(../images/Play_Button.svg);
   opacity: 0.5;
 }
 .play-button:active {
