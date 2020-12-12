@@ -35,7 +35,7 @@ body {
       rgba(213, 32, 71, 0.8) 0%,
       rgba(238, 61, 27, 0.8) 100%
     ),
-    url(/images/Rectangle_3.jpg);
+    url(../images/Rectangle_3.jpg);
   background-position: center;
   color: #fff;
   background-size: cover;
@@ -510,6 +510,15 @@ body {
   padding-right: 15px;
   appearance: none;
   position: relative;
+}
+.form {
+  position: relative;
+}
+.chevron_down_image_in_select {
+  position: absolute;
+  top: 57%;
+  bottom: 0;
+  right: 5%;
 }
 .select:focus {
   background-color: #fafafa;
