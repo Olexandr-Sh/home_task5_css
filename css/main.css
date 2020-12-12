@@ -579,12 +579,10 @@ body {
   padding: 0;
 }
 .mail_list_item {
-  margin-bottom: 8px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-bottom: 8px;
 }
 .tel_list_item {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .li_serv {
   color: #000;
