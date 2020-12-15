@@ -362,11 +362,10 @@ body {
 }
 .features_text {
   margin: 0;
-  height: 57px;
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 60px;
-  padding-bottom: 62px;
+  padding-bottom: 18px;
   font-size: 14px;
   line-height: 1.5;
   color: #101010;
@@ -406,11 +405,15 @@ body {
   position: relative;
   min-height: 90px;
   margin-top: -62px;
+  color: #ed4c5c;
+  font-size: 78px;
 }
 .technology_block_icon {
   position: relative;
   min-height: 80px;
   margin-top: -50px;
+  color: #ed4c5c;
+  font-size: 56px;
 }
 .technology_text {
   margin: 0;
