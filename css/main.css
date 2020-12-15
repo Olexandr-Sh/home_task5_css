@@ -450,8 +450,10 @@ body {
   padding-top: 120px;
 }
 .img_link_icon {
-  padding-right: 12px;
-  padding-left: 12px;
+  color: #fff;
+  padding-top: 25px;
+  padding-right: 24px;
+  font-size: 26px;
 }
 .map_style {
   border-radius: 15px;
