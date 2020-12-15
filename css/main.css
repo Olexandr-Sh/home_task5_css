@@ -146,7 +146,8 @@ body {
   text-align: center;
 }
 .logo-img {
-  line-height: 29px;
+  font-size: 30px;
+  color: #fff;
 }
 .main-nav {
   padding-top: 1%;
@@ -283,7 +284,8 @@ body {
   position: relative;
 }
 .play-button {
-  background: url(../images/Play_Button.svg);
+  background: #ed4c5c;
+  color: #fff;
   width: 66px;
   height: 66px;
   left: calc(50% - 33px);
@@ -297,11 +299,11 @@ body {
 }
 .play-button:hover {
   box-shadow: 0 0 25px #fff;
-  background: url(../images/Play_Button.svg);
+  background: #ed4c5c;
 }
 .play-button:focus {
   box-shadow: 0 0 25px #fff;
-  background: url(../images/Play_Button.svg);
+  background: #ed4c5c;
   opacity: 0.5;
 }
 .play-button:active {
