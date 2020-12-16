@@ -528,8 +528,10 @@ body {
   position: relative;
 }
 .chevron_down_image_in_select {
+  font-size: 8px;
+  color: rgba(19, 39, 67, 0.5);
   position: absolute;
-  top: 57%;
+  top: 58%;
   bottom: 0;
   right: 5%;
 }
@@ -614,6 +616,8 @@ body {
   padding-bottom: 2px;
 }
 .position_footer_icons {
+  font-size: 22px;
+  color: #101010;
   padding-left: 5px;
   padding-right: 5px;
 }
