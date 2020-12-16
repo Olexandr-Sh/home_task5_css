@@ -22,42 +22,42 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-ChevronDown:before {
+.icon-chevron-down:before {
   content: "\e900";
 }
-.icon-f-icon_footer:before {
+.icon-f-icon-footer:before {
   content: "\e901";
 }
-.icon-icon_1:before {
+.icon-cloud-1:before {
   content: "\e902";
 }
-.icon-icon_2:before {
+.icon-secure-2:before {
   content: "\e903";
 }
-.icon-icon_3:before {
+.icon-pdf-3:before {
   content: "\e904";
 }
-.icon-icon_4:before {
+.icon-csv-4:before {
   content: "\e905";
 }
-.icon-In-icon_footer:before {
+.icon-in-icon-footer:before {
   content: "\e906";
 }
-.icon-link_icon_1:before {
+.icon-link-icon-1:before {
   content: "\e907";
 }
-.icon-link_icon_2:before {
+.icon-link-icon-2:before {
   content: "\e908";
 }
-.icon-link_icon_3:before {
+.icon-link-icon-3:before {
   content: "\e909";
 }
-.icon-Logo:before {
+.icon-logo:before {
   content: "\e90a";
 }
 .icon-play_button:before {
   content: "\e90b";
 }
-.icon-Tw-icon_footer:before {
+.icon-tw-icon-footer:before {
   content: "\e90c";
 }
