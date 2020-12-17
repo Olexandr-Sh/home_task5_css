@@ -146,7 +146,8 @@ body {
   text-align: center;
 }
 .logo-img {
-  line-height: 29px;
+  font-size: 30px;
+  color: #fff;
 }
 .main-nav {
   padding-top: 1%;
@@ -283,7 +284,8 @@ body {
   position: relative;
 }
 .play-button {
-  background: url(../images/Play_Button.svg);
+  background: #ed4c5c;
+  color: #fff;
   width: 66px;
   height: 66px;
   left: calc(50% - 33px);
@@ -297,11 +299,11 @@ body {
 }
 .play-button:hover {
   box-shadow: 0 0 25px #fff;
-  background: url(../images/Play_Button.svg);
+  background: #ed4c5c;
 }
 .play-button:focus {
   box-shadow: 0 0 25px #fff;
-  background: url(../images/Play_Button.svg);
+  background: #ed4c5c;
   opacity: 0.5;
 }
 .play-button:active {
@@ -360,11 +362,10 @@ body {
 }
 .features_text {
   margin: 0;
-  height: 57px;
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 60px;
-  padding-bottom: 62px;
+  padding-bottom: 18px;
   font-size: 14px;
   line-height: 1.5;
   color: #101010;
@@ -404,11 +405,15 @@ body {
   position: relative;
   min-height: 90px;
   margin-top: -62px;
+  color: #ed4c5c;
+  font-size: 78px;
 }
 .technology_block_icon {
   position: relative;
   min-height: 80px;
   margin-top: -50px;
+  color: #ed4c5c;
+  font-size: 56px;
 }
 .technology_text {
   margin: 0;
@@ -445,8 +450,10 @@ body {
   padding-top: 120px;
 }
 .img_link_icon {
-  padding-right: 12px;
-  padding-left: 12px;
+  color: #fff;
+  padding-top: 25px;
+  padding-right: 24px;
+  font-size: 26px;
 }
 .map_style {
   border-radius: 15px;
@@ -521,8 +528,10 @@ body {
   position: relative;
 }
 .chevron_down_image_in_select {
+  font-size: 8px;
+  color: rgba(19, 39, 67, 0.5);
   position: absolute;
-  top: 57%;
+  top: 58%;
   bottom: 0;
   right: 5%;
 }
@@ -607,6 +616,8 @@ body {
   padding-bottom: 2px;
 }
 .position_footer_icons {
+  font-size: 22px;
+  color: #101010;
   padding-left: 5px;
   padding-right: 5px;
 }

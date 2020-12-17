@@ -16,6 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="./icomoon/style.css" />
   </head>
   <body>
     <header class="page_header">
@@ -23,11 +24,8 @@
         <div class="row">
           <div class="col col-3">
             <a aria-label="CloudBadget logo to go to the main page" href="/">
-              <img
-                src="./images/Logo.svg"
-                alt="CloudBudget Logo"
-                class="logo-img"
-            /></a>
+              <span class="icon-logo logo-img"></span>
+            </a>
           </div>
           <div class="col col-6">
             <nav class="main-nav">
@@ -97,8 +95,8 @@
                 poster="./images/Video_bg.jpg"
               ></video>
               <button
-                aria-label="play-button for video"
-                class="play-button"
+                aria-label="Click on play-button for video"
+                class="play-button icon-play_button"
               ></button>
             </div>
           </div>
@@ -192,7 +190,7 @@
               >
                 <span class="number">01</span>
                 <div class="technology_block_icon_1">
-                  <img src="./images/icon_1.svg" alt="Down arrow cloud icon" />
+                  <span class="icon-cloud-1"></span>
                 </div>
                 <h3 class="d-blok">Cloud Storage</h3>
                 <p class="technology_text">
@@ -204,10 +202,7 @@
               >
                 <span class="number">02</span>
                 <div class="technology_block_icon">
-                  <img
-                    src="./images/icon_2.svg"
-                    alt="shield with image of magnifying glass inside"
-                  />
+                  <span class="icon-secure-2"></span>
                 </div>
                 <h3 class="d-blok">Secure</h3>
                 <p class="technology_text">
@@ -219,7 +214,7 @@
               >
                 <span class="number">03</span>
                 <div class="technology_block_icon">
-                  <img src="./images/icon_3.svg" alt="image of the pdf file" />
+                  <span class="icon-pdf-3"></span>
                 </div>
                 <h3 class="d-blok">PDF Download</h3>
                 <p class="technology_text">
@@ -231,7 +226,7 @@
               >
                 <span class="number">04</span>
                 <div class="technology_block_icon">
-                  <img src="./images/icon_4.svg" alt="image of the CSV file" />
+                  <span class="icon-csv-4"></span>
                 </div>
                 <h3 class="d-blok">CSV Download</h3>
                 <p class="technology_text">
@@ -253,24 +248,21 @@
                 spot and cut any unnecessary expenses. Simply join today to get
                 started!
               </p>
-              <a href=""
-                ><img
-                  class="img_link_icon"
-                  src="./images/link_icon_1.svg"
-                  alt="playmarket link icon"
-              /></a>
-              <a href=""
-                ><img
-                  class="img_link_icon"
-                  src="./images/link_icon_2.svg"
-                  alt="icon reference"
-              /></a>
-              <a href=""
-                ><img
-                  class="img_link_icon"
-                  src="./images/link_icon_3.svg"
-                  alt="microsoft site link icon"
-              /></a>
+              <a
+                href=""
+                class="icon-link-icon-1 img_link_icon"
+                aria-label="click on the playstore icon"
+              ></a>
+              <a
+                href=""
+                class="icon-link-icon-2 img_link_icon"
+                aria-label="click on the appstore icon"
+              ></a>
+              <a
+                href=""
+                class="icon-link-icon-3 img_link_icon"
+                aria-label="click on the windows_store icon"
+              ></a>
             </div>
             <div class="col col-6 offset-1">
               <figure class="figure_map">
@@ -345,10 +337,7 @@
                   <option value="Design">Design</option>
                 </select>
                 <div class="chevron_down_image_in_select">
-                  <img
-                    src="./images/ChevronDown_select_section.svg"
-                    alt="chevron_down_select_section"
-                  />
+                  <span class="icon-chevron-down"></span>
                 </div>
                 <button type="submit" class="form_button">SUBMIT NOW</button>
               </form>
@@ -399,15 +388,21 @@
                 >
               </li>
               <li>
-                <a href="#" class="position_footer_icons"
-                  ><img src="./images/f_icon.svg" alt="Facebook"
-                /></a>
-                <a href="#" class="position_footer_icons"
-                  ><img src="./images/in_icon.svg" alt="Instagram"
-                /></a>
-                <a href="#" class="position_footer_icons"
-                  ><img src="./images/tv_icon.svg" alt="Twitter"
-                /></a>
+                <a
+                  href="#"
+                  class="position_footer_icons icon-f-icon-footer"
+                  aria-label="click on the facebook icon"
+                ></a>
+                <a
+                  href="#"
+                  class="position_footer_icons icon-in-icon-footer"
+                  aria-label="click on the instagram icon"
+                ></a>
+                <a
+                  href="#"
+                  class="position_footer_icons icon-tw-icon-footer"
+                  aria-label="click on the twitter icon"
+                ></a>
               </li>
             </ul>
           </div>
